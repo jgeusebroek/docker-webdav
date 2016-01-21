@@ -1,6 +1,6 @@
 # Docker WebDAV container
 
-A tiny container (5MB) running gliderlabs/alpine Linux and Lighttpd.
+A tiny container (5MB) running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Lighttpd](https://www.lighttpd.net/).
 
 ## Usage
 
@@ -11,7 +11,7 @@ A tiny container (5MB) running gliderlabs/alpine Linux and Lighttpd.
 		-v /<host_directory_to_share>:/webdav \
 		jgeusebroek/webdav
 
-By default the webdav server is password protected with user `webdav` and password `davbew` which obviously isn't really secure.
+By default the WebDAV server is password protected with user `webdav` and password `davbew` which obviously isn't really secure.
 This can easily be overwritten, by creating a `config directory` on the host with an *htpasswd* file and mounting this as a volume on `/config`.
 
 	-v /<host_config_directory>:/config
