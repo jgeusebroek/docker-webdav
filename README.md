@@ -1,6 +1,8 @@
+[![](https://badge.imagelayers.io/jgeusebroek/webdav:latest.svg)](https://imagelayers.io/?images=jgeusebroek/webdav:latest 'Get your own badge on imagelayers.io')
+
 # Docker WebDAV container
 
-A tiny container (5MB) running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Lighttpd](https://www.lighttpd.net/).
+A tiny container running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Lighttpd](https://www.lighttpd.net/).
 
 ## Usage
 
