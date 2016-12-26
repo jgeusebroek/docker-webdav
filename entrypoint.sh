@@ -20,8 +20,10 @@ if [ -n "$WHITELIST" ]; then
 	sed -i "s/WHITELIST/${WHITELIST}/" /etc/lighttpd/webdav.conf
 fi
 
-if [ "$READWRITE" = true ]; then
-	sed -i "s/readonly = \"disable\"/readonly = \"enable\"/" /etc/lighttpd/webdav.conf
+if [ "$READWRITE" == "true" ]; then
+	sed -i "s/is-readonly = \"\\w*\"/is-readonly = \"disable\"/" /etc/lighttpd/webdav.conf
+else
+  sed -i "s/is-readonly = \"\\w*\"/is-readonly = \"enable\"/" /etc/lighttpd/webdav.conf
 fi
 
 if [ ! -f /config/htpasswd ]; then
