@@ -1,5 +1,4 @@
-[![](https://badge.imagelayers.io/jgeusebroek/webdav:latest.svg)](https://imagelayers.io/?images=jgeusebroek/webdav:latest 'Get your own badge on imagelayers.io')
-
+[![](https://images.microbadger.com/badges/image/jgeusebroek/webdav.svg)](https://microbadger.com/images/jgeusebroek/webdav "Get your own image badge on microbadger.com")
 # Docker WebDAV image
 
 A tiny image running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Lighttpd](https://www.lighttpd.net/).

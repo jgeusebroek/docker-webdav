@@ -1,8 +1,8 @@
-FROM gliderlabs/alpine:3.3
+FROM gliderlabs/alpine:3.4
 MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
 ENV PACKAGE_LIST="lighttpd lighttpd-mod_webdav lighttpd-mod_auth" \
-    REFRESHED_AT='2015-01-21'
+    REFRESHED_AT='2016-12-26'
 
 RUN apk add --no-cache ${PACKAGE_LIST}
 
