@@ -12,7 +12,7 @@ A tiny image running [gliderlabs/docker-alpine](https://github.com/gliderlabs/do
 		-v /<host_directory_to_share>:/webdav \
 		jgeusebroek/webdav
 
-By default the WebDAV server is password protected with user `webdav` and password `davbew` which obviously isn't really secure.
+By default the WebDAV server is password protected with user `webdav` and password `vadbew` which obviously isn't really secure.
 This can easily be overwritten, by creating a `config directory` on the host with an *htpasswd* file and mounting this as a volume on `/config`.
 
 	-v /<host_config_directory>:/config
